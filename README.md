@@ -29,7 +29,6 @@ No `.env`, no secrets, no Dockerfile.
 # Employee Attendance & Analytics API
 
 ## How to Run
-Install dependencies:
    ```bash
    pip install -r requirements.txt
 
