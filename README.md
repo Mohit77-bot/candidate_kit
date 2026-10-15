@@ -29,9 +29,16 @@ No `.env`, no secrets, no Dockerfile.
 # Employee Attendance & Analytics API
 
 ## How to Run
-1. Install dependencies:
+Install dependencies:
    ```bash
    pip install -r requirements.txt
-    MONGO_URI=mongodb://localhost:27017
-    MONGO_DB=hrone_attendance
-    uvicorn app.main:app --port 8000 --reload
+
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=hrone_attendance
+
+uvicorn app.main:app --port 8000 --reload
+
+## API Documentation & Testing
+Once the application is running, open your browser and navigate to the interactive Swagger UI:
+
+URL: http://127.0.0.1:8000/docs
